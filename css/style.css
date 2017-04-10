@@ -1,0 +1,35 @@
+p {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 25px
+}
+
+header {
+  background-color: rgba(59, 53, 69, 0.75);
+  width: 100%;
+  top: 0;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.25em;
+  color: rgb(219, 210, 233);
+}
+
+		nav ul li {
+      float: right;
+			display: inline-block;
+		}
+
+			nav ul li a {
+				padding: 0 10px;
+				text-decoration: none;
+			}
+
+table {
+  background: rgba(142, 96, 139, 0.39);
+  font-family: helvetica, arial, sans-serif;
+  font-style: italic;
+  color: rgb(59, 53, 69);
+}
