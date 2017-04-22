@@ -1,35 +1,107 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(235,235,235);
+  width: 100%;
+}
+
+
 p {
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+.main-title{
+  max-width: 600px;
+  margin-top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 300px;
+
 }
 
 h1 {
-  font-family: helvetica, arial, sans-serif;
-  font-size: 25px
+  font-family: 'Paytone One', sans-serif;
+  font-size: 70px;
+  color: rgb(76,79,101);
 }
 
-header {
-  background-color: rgba(59, 53, 69, 0.75);
-  width: 100%;
-  top: 0;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 1.25em;
-  color: rgb(219, 210, 233);
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  color: rgb(76,79,101)
 }
 
-		nav ul li {
+header.encabezado {
+  height: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+header nav ul li {
       float: right;
 			display: inline-block;
-		}
+      margin-right: 40px;
+		  }
 
-			nav ul li a {
-				padding: 0 10px;
+		header	nav ul li a {
+				padding: 10px;
+
 				text-decoration: none;
-			}
+			  }
+
+ul.side-links {
+  list-style: none;
+  float: right;
+  margin-right: 40px;
+}
+
+
+#info {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 300px;
+}
+#skills {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
 
 table {
   background: rgba(142, 96, 139, 0.39);
-  font-family: helvetica, arial, sans-serif;
-  font-style: italic;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   color: rgb(59, 53, 69);
-}
+  padding: 10px;
+  }
+
+footer {
+  width: 100%;
+  background-color: gray;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  }
+
+  footer div ul li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+   footer div ul li a {
+     text-decoration: none;
+   }
+
+.footer-links {
+  padding: 10px;
+  }
+
+   .logo-adalab {
+     float: right;
+     margin-right: 40px;
+   }
